@@ -1,4 +1,4 @@
-import { MathUtils, InstancedMesh, Object3D } from 'three'
+import { MathUtils, Object3D } from 'three'
 import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Instances, Instance, Environment } from '@react-three/drei'
@@ -13,7 +13,7 @@ type Particle = {
 };
 
 // 创建粒子数组
-const particles: Particle[] = Array.from({ length: 150 }, () => ({
+const particles: Particle[] = Array.from({ length: 120 }, () => ({
   factor: MathUtils.randInt(20, 100),
   speed: MathUtils.randFloat(0.01, 0.75),
   xFactor: MathUtils.randFloatSpread(40),
@@ -29,8 +29,8 @@ const particles: Particle[] = Array.from({ length: 150 }, () => ({
       }
     })
     return (
-      <Instances limit={particles.length} ref={ref} castShadow receiveShadow position={[0, 2.5, 0]}>
-        <sphereGeometry args={[0.45, 64, 64]} />
+      <Instances limit={particles.length} castShadow receiveShadow position={[0, 2.5, 0]}>
+        <sphereGeometry args={[0.45, 32, 32]} />
         <meshStandardMaterial roughness={1} color="#f0f0f0" />
         {particles.map((data, i) => (
           <Bubble key={i} {...data} />
