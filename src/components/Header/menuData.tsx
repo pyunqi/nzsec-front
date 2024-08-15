@@ -10,14 +10,14 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Links",
-    path: "/Links",
+    path: "/links",
     newTab: false,
   },
   {
     id: 3,
     title: "Chinese Services",
     path: "https://nzsec.net/",
-    newTab: false,
+    newTab: true,
   },
   {
     id: 4,
@@ -28,7 +28,7 @@ const menuData: Menu[] = [
   {
     id: 5,
     title: "About",
-    path: "/About",
+    path: "/about",
     newTab: false,
   },
 ];

@@ -40,11 +40,11 @@ const SupportPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                   support // 
+                   support !! 
                     <strong className="text-primary dark:text-white">
                       support  
                     </strong>
-                   // support
+                  !!support
                   </p>
                  
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
