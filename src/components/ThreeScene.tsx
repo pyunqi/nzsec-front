@@ -2,7 +2,6 @@ import { MathUtils, Object3D } from 'three'
 import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Instances, Instance, Environment } from '@react-three/drei'
-
 // 定义粒子属性的类型
 type Particle = {
   factor: number;
@@ -13,9 +12,9 @@ type Particle = {
 };
 
 // 创建粒子数组
-const particles: Particle[] = Array.from({ length: 120 }, () => ({
-  factor: MathUtils.randInt(20, 100),
-  speed: MathUtils.randFloat(0.01, 0.75),
+const particles: Particle[] = Array.from({ length: 100 }, () => ({
+  factor: MathUtils.randInt(20, 80),
+  speed: MathUtils.randFloat(0.01, 0.45),
   xFactor: MathUtils.randFloatSpread(40),
   yFactor: MathUtils.randFloatSpread(10),
   zFactor: MathUtils.randFloatSpread(10)
@@ -30,7 +29,7 @@ const particles: Particle[] = Array.from({ length: 120 }, () => ({
     })
     return (
       <Instances limit={particles.length} castShadow receiveShadow position={[0, 2.5, 0]}>
-        <sphereGeometry args={[0.45, 32, 32]} />
+        <sphereGeometry args={[0.45, 20, 20]} />
         <meshStandardMaterial roughness={1} color="#f0f0f0" />
         {particles.map((data, i) => (
           <Bubble key={i} {...data} />
@@ -63,7 +62,7 @@ const ThreeScene = () => {
     <ambientLight intensity={1.5} />
     <pointLight position={[10, 10, 10]} intensity={1} castShadow />
     <Bubbles />
-    <Environment preset="city" />
+    <Environment files="./potsdamer_platz_1k.hdr" />
   </Canvas>
   );
 };
