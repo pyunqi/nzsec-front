@@ -1,7 +1,7 @@
 import RelatedPost from "@/components/Support/RelatedPost";
 import SharePost from "@/components/Support/SharePost";
 import TagButton from "@/components/Support/TagButton";
-import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+import NewsLatterBox from "@/components/Links/NewsLatterBox";
 import Image from "next/image";
 
 import { Metadata } from "next";
