@@ -40,14 +40,15 @@ const Hero = () => {
        {/* <div className = "align-middle" style = {{border:'blue 0px solid',position: 'relative', zIndex:'auto', textAlign:'center' }}> */}
         <div className = "align-middle" style = {{width:'100%', height:'100%', border: 'green 0px solid', position:'absolute', textAlign:'center' }}>
           
-          <h1 className = "align-middle text-base md:text-4xl lg:text-5xl font-sans gradient-text text-balance" style = {{border: 'blue 0px solid', fontWeight:'bolder',margin: '10% 0 0 0',}}>
-            Newzealand S.E.C 
+          <h1 className = "mt-[55%] md:mt-[10%] lg:mt-[10%] align-middle text-base md:text-4xl lg:text-5xl font-sans gradient-text text-balance" style = {{border: 'blue 0px solid', fontWeight:'bolder'}}>
+            Newzealand S.E. --- 
             <span className = "mt-6 mb-10" style = {{display:'block'}}>SCIENCE , EDUCATION , CULTURE.</span>
           </h1>
           
           <div className = "align-middle text-base md:text-1xl lg:text-2xl font-sans text-balance" style = {{ color: '#FFF', margin:'15px 0', border:'red 0px solid', fontStyle:'italic', lineHeight:'1.5'}}>
-            <h2>We always provide accurate information and reliable services.</h2>
-            <h2>Experience the best of our website!</h2>
+            {/* <h2>slogan......</h2> */}
+            <h2>"We always provide accurate information and reliable services. "</h2>
+            <h2>"Experience the best of our website!"</h2>
           </div>
         
         </div>

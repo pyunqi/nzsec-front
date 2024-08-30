@@ -57,7 +57,7 @@ const particles: Particle[] = Array.from({ length: 100 }, () => ({
 const ThreeScene = () => {
   return (
     <Canvas shadows dpr={[1, 2]} gl={{ antialias: false }} camera={{ fov: 50, position: [0, 0, 20] }}>
-    <color attach="background" args={['#f0f0f0']} />
+    <color attach="background" args={['#87ceeb']} />
     <fog attach="fog" args={['red', 20, -5]} />
     <ambientLight intensity={1.5} />
     <pointLight position={[10, 10, 10]} intensity={1} castShadow />
