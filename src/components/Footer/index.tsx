@@ -8,21 +8,21 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24 mt-20 md:mt-24 lg:mt-35">
         <div className="container">
           <div className="mx-4 flex flex-wrap">
-            <div className="w-full lg:pl-20 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[200px] lg:mb-16">
+            <div className="pl-9 md:pl-15 lg:pl-15 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12 border-0">
+              <div className="mb-12 max-w-[125px] md:max-w-[160px] lg:max-w-[180px] lg:mb-16 border-0">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-landscape_3.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
+                    width={100}
                     height={30}
                   />
                   <Image
                     src="/images/logo/logo-landscape_2.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
+                    width={100}
                     height={30}
                   />
                 </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
 
            {/* Footer Menu part one */}
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0 border-dotted">
-              <div className="mb-12 lg:mb-16 border-0">
+              <div className="ml-4 md:ml-6 lg:ml-10 mb-12 lg:mb-16 border-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Any links?
                 </h2>
@@ -60,8 +60,8 @@ const Footer = () => {
 
 
             {/* Footer Menu part two */}
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0">
-              <div className="mb-12 lg:mb-16">
+            <div className="w-full px-0 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0">
+              <div className="ml-8 md:ml-6 lg:ml-10 mb-12 lg:mb-16 border-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Any Other Links?
                 </h2>
@@ -90,7 +90,7 @@ const Footer = () => {
 
              {/* Footer Menu part three */}
             <div className="w-full pl-4 md:w-1/2 lg:w-4/12 xl:w-3/12 border-0">
-              <div className="md:ml-10 lg:ml-10 border-0">
+              <div className="ml-4 md:ml-6 lg:ml-10 md:ml-10 lg:ml-10 border-0">
                 <h2 className="md:ml-10 lg:ml-10 mb-10 text-xl font-bold text-black dark:text-white">
                 Any Other Links?
                 </h2>
