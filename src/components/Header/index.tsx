@@ -40,16 +40,17 @@ const Header = () => {
 
   return (
     <>
-      <header
+      <header style = {{border:'red 0px solid'}}
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
       >
-        <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+        <div className="mx-auto lg:w-8/12" style = {{border:'#fff 0px solid'}}>
+        {/* <div className="container"> */}
+          <div className="relative -mx-4 flex items-center justify-between" >
+            <div className="w-60 max-w-full px-4 xl:mr-12 "  style = {{border:'green 0px solid'}}>
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -70,11 +71,24 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
+{/* 
+                <Image
+                  src="/images/logo/logo-landscape_new.svg"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="hidden w-full dark:block"
+                /> */}
+
+
+
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+
+            
+            <div className="flex w-full items-center justify-between px-4" style = {{border:'red 0px solid'}}>
               <div>
-                <button
+                <button 
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
@@ -104,7 +118,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-14">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
@@ -142,7 +156,7 @@ const Header = () => {
                               }`}
                             >
                               {menuItem.submenu.map((submenuItem, index) => (
-                                <Link
+                                <Link 
                                   href={submenuItem.path}
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
@@ -158,12 +172,15 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex items-center justify-end pr-16 lg:pr-0" >
                 <div>
                   <ThemeToggler />
                 </div>
               </div>
             </div>
+
+
+            
           </div>
         </div>
       </header>

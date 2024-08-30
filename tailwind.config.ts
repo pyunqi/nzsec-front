@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: "0rem",
     },
 
     screens: {
@@ -32,6 +32,13 @@ module.exports = {
 
       "2xl": "1400px",
       // => @media (min-width: 1400px) { ... }
+
+        // sm: "100%'",
+        // md: "100%",
+        // lg: "100%",
+        // xl: "100%",
+        //"2xl": "1400px",
+      // // => @media (min-width: 1400px) { ... }
     },
     extend: {
       colors: {
@@ -42,6 +49,7 @@ module.exports = {
         dark: "#1D2430",
         primary: "#4A6CF7",
         yellow: "#FBB040",
+        blue: "#7CCDFD",
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",
@@ -56,6 +64,30 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
+
+
+        normalgray : "#979797",
+
+        linegray: "#6F747C",
+        
+        // width: {
+        // 'custom-20': '20%',
+        // 'custom-30': '30%',
+        // 'custom-40': '40%',
+        // 'custom-45': '45%',
+        // // Add more custom percentage widths as needed
+        // },
+
+        
+        // customer color for second title
+        cblue: "#35c3ff",
+        cblued: "#5FB6E0",
+
+
+        // white background
+        wbgcolor: "#293442",
+
+
       },
 
       boxShadow: {

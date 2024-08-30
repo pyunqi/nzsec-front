@@ -31,3 +31,18 @@
     @apply opacity-100;
   }
 }
+
+
+/* text linear gradient  */
+
+    .gradient-text {
+      /* background: linear-gradient(to right, #0318dd, #ffffff); */
+      /* background: linear-gradient(-90deg,#2b8d64 0,#35c3ff 30%,#ffffff 50%,#76d880 70%,#ebf38b 90%,#a19fbd 100%); */
+      background: linear-gradient(-90deg,#2b8d64 0,#35c3ff 30%,#ffffff 50%,#6c93e7 70%,#ebf38b 90%,#a19fbd 100%);
+      -webkit-background-clip: text; /* Apply gradient to text in WebKit browsers */
+      -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
+      background-clip: text; /* Apply gradient to text in non-WebKit browsers */
+      color: transparent; /* Fallback for non-webkit browsers */
+      /* filter: drop-shadow(0 0 2rem rgb(54, 14, 233)); */
+    }
+  

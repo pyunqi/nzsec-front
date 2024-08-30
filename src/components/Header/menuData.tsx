@@ -15,18 +15,24 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Chinese Services",
+    title: "Chinese Services(NZSEC)",
     path: "https://nzsec.net/",
     newTab: true,
   },
   {
     id: 4,
+    title: "NZCLW",
+    path: "https://www.nzclw.com/",
+    newTab: true,
+  },
+  {
+    id: 5,
     title: "Support",
     path: "/support",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "About",
     path: "/about",
     newTab: false,

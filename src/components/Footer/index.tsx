@@ -5,11 +5,11 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24 mt-20 md:mt-24 lg:mt-35">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+          <div className="mx-4 flex flex-wrap">
+            <div className="w-full lg:pl-20 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12">
+              <div className="mb-12 max-w-[200px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-landscape_3.svg"
@@ -29,8 +29,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+
+           {/* Footer Menu part one */}
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0 border-dotted">
+              <div className="mb-12 lg:mb-16 border-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Any links?
                 </h2>
@@ -56,7 +58,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+
+            {/* Footer Menu part two */}
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Any Other Links?
@@ -83,12 +87,14 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+
+             {/* Footer Menu part three */}
+            <div className="w-full pl-4 md:w-1/2 lg:w-4/12 xl:w-3/12 border-0">
+              <div className="md:ml-10 lg:ml-10 border-0">
+                <h2 className="md:ml-10 lg:ml-10 mb-10 text-xl font-bold text-black dark:text-white">
                 Any Other Links?
                 </h2>
-                <ul>
+                <ul className="md:ml-10 lg:ml-10">
                   <li>
                     <Link
                       href="/contact"
@@ -109,9 +115,11 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+
+
           </div>
 
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="border-0 h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
          
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
@@ -188,7 +196,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-24 left-0 z-[-1]">
+        <div className="absolute bottom-24 left-0 z-[-1] border-0">
           <svg
             width="79"
             height="94"

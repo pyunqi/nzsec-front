@@ -18,7 +18,7 @@ const AboutSectionThree = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="mx-auto lg:w-8/12 pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -34,7 +34,7 @@ const AboutSectionThree = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2"> 
                     <List text="Point" />
                     <List text="Point" />
                     <List text="Point" />
