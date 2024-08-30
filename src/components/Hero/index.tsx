@@ -41,7 +41,7 @@ const Hero = () => {
         <div className = "align-middle" style = {{width:'100%', height:'100%', border: 'green 0px solid', position:'absolute', textAlign:'center' }}>
           
           <h1 className = "mt-[55%] md:mt-[10%] lg:mt-[10%] align-middle text-base md:text-4xl lg:text-5xl font-sans gradient-text text-balance" style = {{border: 'blue 0px solid', fontWeight:'bolder'}}>
-            Newzealand S.E. --- 
+            Newzealand S.E.C 
             <span className = "mt-6 mb-10" style = {{display:'block'}}>SCIENCE , EDUCATION , CULTURE.</span>
           </h1>
           
