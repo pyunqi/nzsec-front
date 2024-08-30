@@ -46,9 +46,8 @@ const Hero = () => {
           </h1>
           
           <div className = "align-middle text-base md:text-1xl lg:text-2xl font-sans text-balance" style = {{ color: '#FFF', margin:'15px 0', border:'red 0px solid', fontStyle:'italic', lineHeight:'1.5'}}>
-            {/* <h2>slogan......</h2> */}
-            <h2>"We always provide accurate information and reliable services. "</h2>
-            <h2>"Experience the best of our website!"</h2>
+            <h2>We always provide accurate information and reliable services.</h2>
+            <h2>Experience the best of our website!</h2>
           </div>
         
         </div>
