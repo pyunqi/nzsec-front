@@ -7,12 +7,12 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 2,
-    title: "Links",
-    path: "/links",
-    newTab: false,
-  },
+  // {
+  //   id: 2,
+  //   title: "Links",
+  //   path: "/links",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Chinese Services(NZSEC)",

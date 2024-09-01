@@ -14,7 +14,7 @@ const Features = () => {
           
           <SectionTitle
             title=">> New Zealand S.E.C. Centre "
-            paragraph="About SEC ... An organization is a group of people who work together in an organized manner to achieve specific objectives or goals. This can be formal or informal and can exist in various contexts, including business, non-profit, governmental, or social sectors. "
+            paragraph="The New Zealand S.E.C Centre is an independent legal entity registered in New Zealand.We are focus on work in the fields of education, technology, and culture! "
             center
           />
 
