@@ -54,7 +54,7 @@ return (
          <div className="mb-2 md:py-8 lg:py-8 flex items-center space-x-4 p-8 pl-2 pr-2 border-0 border-gray-300">
          <div className="relative w-[100px] h-[100px]">
         <Image
-          src="/images/about/member2.svg"
+          src="/images/about/m.svg"
           alt="member1-image"
           layout="fill"
           objectFit="contain"
@@ -91,7 +91,7 @@ return (
          <div className="mb-2 md:py-8 lg:py-8 flex items-center space-x-4 p-8 pl-2 pr-2 border-0 border-gray-300">
          <div className="relative w-[100px] h-[100px]">
         <Image
-          src="/images/about/member2.svg"
+          src="/images/about/m.svg"
           alt="member1-image"
           layout="fill"
           objectFit="contain"
