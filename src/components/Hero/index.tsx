@@ -9,7 +9,6 @@ import { styleText } from "util";
 // 动态导入 ThreeScene 组件，禁用服务器端渲染
 const ThreeScene = dynamic(() => import("../ThreeScene"), {
   // loading: () => <>Loading...</>,
-  suspense: true,
   ssr: false, // 禁用服务器端渲染
 });
 

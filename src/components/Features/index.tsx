@@ -19,8 +19,8 @@ const Features = () => {
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3 pt-8 pl-4 sm:pl-0 lg:pl-0" style = {{border:'yellow 0px dotted', margin:'0px 0 0px 0'}}>
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
+            {featuresData.map((feature, index) => (
+              <SingleFeature key={index} feature={feature} />
             ))}
           </div>
         </div>
