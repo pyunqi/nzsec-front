@@ -25,8 +25,6 @@ export default function Home() {
       <Hero />
       <Features />
       <AboutSectionOne />
-      {/* <AboutSectionTwo />
-      <AboutSectionThree /> */}
     </>
   );
 }

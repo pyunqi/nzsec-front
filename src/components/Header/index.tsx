@@ -47,10 +47,10 @@ const Header = () => {
             : "absolute bg-transparent"
         }`}
       >
-        <div className="mx-auto lg:w-8/12" style = {{border:'#fff 0px solid'}}>
+        <div className="pl-4 mx-auto lg:w-8/12" style = {{border:'#fff 0px solid'}}>
         {/* <div className="container"> */}
           <div className="relative -mx-4 flex items-center justify-between" >
-            <div className="w-60 max-w-full px-4 xl:mr-12 "  style = {{border:'green 0px solid'}}>
+            <div className="w-140 max-w-full px-4 xl:mr-12 "  style = {{border:'green 0px solid'}}>
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -58,14 +58,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-landscape_3.svg"
+                  src="/images/logo/logo-landscape_light.svg"
                   alt="logo"
                   width={140}
                   height={140}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo-landscape_2.svg"
+                  src="/images/logo/logo-landscape_dark.svg"
                   alt="logo"
                   width={140}
                   height={140}
