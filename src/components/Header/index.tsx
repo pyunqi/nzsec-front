@@ -41,16 +41,16 @@ const Header = () => {
   return (
     <>
       <header style = {{border:'red 0px solid'}}
-        className={`header left-0 top-0 z-40 flex w-full items-center ${
+        className={`h-[120px] lg:h-[160px] header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
       >
-        <div className="pl-4 mx-auto lg:w-8/12" style = {{border:'#fff 0px solid'}}>
+        <div className="pl-4 mx-auto w-12/12 lg:w-8/12" style = {{border:'#fff 0px solid'}}>
         {/* <div className="container"> */}
-          <div className="relative -mx-4 flex items-center justify-between" >
-            <div className="w-140 max-w-full px-4 xl:mr-12 "  style = {{border:'green 0px solid'}}>
+          <div className="relative flex items-center justify-between" >
+            <div className="max-w-full px-4 xl:mr-12"  style = {{border:'green 0px solid'}}>
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -60,16 +60,16 @@ const Header = () => {
                 <Image
                   src="/images/logo/logo-landscape_light.svg"
                   alt="logo"
-                  width={140}
+                  width={270}
                   height={140}
-                  className="w-full dark:hidden"
+                  className="w-[300px] h-[140px] dark:hidden"
                 />
                 <Image
                   src="/images/logo/logo-landscape_dark.svg"
                   alt="logo"
-                  width={140}
+                  width={270}
                   height={140}
-                  className="hidden w-full dark:block"
+                  className="hidden w-[300px] h-[140px] w-full dark:block"
                 />
 {/* 
                 <Image
