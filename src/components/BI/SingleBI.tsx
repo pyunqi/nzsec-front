@@ -2,7 +2,7 @@ import { BI } from "@/types/bi";
 import Image from "next/image";
 import Link from "next/link";
 
-const SingleBlog = ({ blog }: { blog: BI }) => {
+const SingleBI = ({ blog }: { blog: BI }) => {
   const { title, image, paragraph, tags,bid } = blog;
   return (
     <>
@@ -37,4 +37,4 @@ const SingleBlog = ({ blog }: { blog: BI }) => {
   );
 };
 
-export default SingleBlog;
+export default SingleBI;
