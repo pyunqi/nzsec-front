@@ -52,7 +52,7 @@ const ServicePlatform = () => {
             <span className="text-gray block indent-6 leading-relaxed">
               The ZZU-New Zealand Education Exchange Center (ZZU-NZEEC) was
               established in 2021, making it the first overseas educational
-              institution founded by a Chinese "Double First-Class" university
+              institution founded by a Chinese &quot;Double First-Class&quot; university
               in New Zealand. It is a key division of the New Zealand Education
               and Culture Center. As the only official overseas representative
               and independent institution of Zhengzhou University, ZZU-NZEEC is
@@ -89,8 +89,8 @@ const ServicePlatform = () => {
               New Zealand Bailie Training Base was registered in New Zealand in
               November 2019. It was established to promote the international
               spirit of great love embodied by Rewi Alley and to carry forward
-              his educational philosophy of "combining hands and mind, creating
-              and analyzing." The base aims to implement the Implementation Plan
+              his educational philosophy of &quot;combining hands and mind, creating
+              and analyzing.&quot; The base aims to implement the Implementation Plan
               for National Vocational Education Reform, advance the
               internationalization of China’s vocational education, support
               China’s industries in moving up the global value chain, and
@@ -115,7 +115,9 @@ const ServicePlatform = () => {
             />
           </div>
           <div className="flex-1 text-normalgray">
-            <span className="font-medium text-blue">The University of Waikato China Education Centre</span>
+            <span className="font-medium text-blue">
+              The University of Waikato China Education Centre
+            </span>
             <span className="text-gray block indent-6 leading-relaxed">
               In 1994, China began exploring the introduction of international
               vocational qualification certificates. In 1998, the former
