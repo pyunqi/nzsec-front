@@ -1,17 +1,17 @@
-import About from "@/components/About/About";
+import Contact from "@/components/Contact/Contact";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About PageS",
-  description: "This is About Page for SEC",
+  title: "Contact",
+  description: "This is Contact Page for SEC",
   // other metadata
 };
 
 const AboutPage = () => {
   return (
     <>
-      <About />
+      <Contact />
     </>
   );
 };

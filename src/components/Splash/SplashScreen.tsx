@@ -1,32 +1,42 @@
-// app/components/SplashScreen.tsx
 "use client";
 
 import React, { useEffect, useState } from "react";
-import  "./SplashScreen.moudle.css";
+import "./SplashScreen.module.css";
 import clsx from "clsx";
+import Image from "next/image";
 
 const SplashScreen = () => {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setFadeOut(true);
-      setTimeout(() => setVisible(false), 1000); // 配合CSS的过渡时间
-    }, 2000); // 3秒后开始淡出
+    const hasSeenSplash = localStorage.getItem("hasSeenSplash");
 
-    return () => clearTimeout(timer);
+    if (!hasSeenSplash) {
+      setVisible(true);
+      const timer = setTimeout(() => {
+        setFadeOut(true);
+        setTimeout(() => {
+          setVisible(false);
+          localStorage.setItem("hasSeenSplash", "true");
+        }, 1000);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   if (!visible) return null;
 
   return (
-    <div
-      className={clsx('splashScreen', {
-        ['fadeOut']: fadeOut,
-      })}
-    >
-      <img src="/images/logo/logo-landscape_new1.svg" alt="Logo" className={'logo'} />
+    <div className={clsx("splashScreen", fadeOut && "fadeOut")}>
+      <Image
+        src="/images/logo/logo-landscape_new1.svg"
+        alt="Logo"
+        width={200}
+        height={100}
+        className="logo"
+      />
     </div>
   );
 };

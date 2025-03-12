@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className="relative z-10 bg-white dark:bg-gray-dark md:pt-4 ">
-        <div className="container pl-4 mx-auto h-[240px] lg:w-8/12">
+        <div className="container pl-4 mx-auto h-[240px] lg:w-12/12">
           <div className="flex flex-wrap">
             <div className="md:pl-15 lg:pl-4 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12 border-0">
               <div className="w-[270px] lg:mb-16 border-0">
@@ -31,18 +31,18 @@ const Footer = () => {
 
 
            {/* Footer Menu part one */}
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0 border-dotted">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-6/12 xl:w-4/12 border-0 border-dotted">
               <div className="ml-4 md:ml-6 lg:ml-10 mb-12 lg:mb-16 border-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Any links?
+                第一类友情链接 （假设有3类友情链接，觉得多的话可以减少，甚至不要，这几个位置换成二维码也可以）
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Any Child links
+                      友情链接1
                     </Link>
                   </li>
                 </ul>
@@ -54,38 +54,17 @@ const Footer = () => {
             <div className="w-full px-0 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 border-0">
               <div className="ml-8 md:ml-6 lg:ml-10 mb-12 lg:mb-16 border-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Any Other Links?
+                 第二类友情链接
                 </h2>
                 <ul>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Any Child links
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-             {/* Footer Menu part three */}
-            <div className="w-full pl-4 md:w-1/2 lg:w-4/12 xl:w-3/12 border-0">
-              <div className="ml-4 md:ml-6 lg:ml-10 md:ml-10 lg:ml-10 border-0">
-                <h2 className="md:ml-10 lg:ml-10 mb-10 text-xl font-bold text-black dark:text-white">
-                Any Other Links?
-                </h2>
-                <ul className="md:ml-10 lg:ml-10">
                   <li>
                     <Link
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                        Any Other Links?
+                      友情链接1
                     </Link>
                   </li>
-                
                 </ul>
               </div>
             </div>

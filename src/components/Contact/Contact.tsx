@@ -7,7 +7,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionThree = () => {
+const Contact = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,8 +24,8 @@ const AboutSectionThree = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="About"
-                paragraph="NZSEC简介."
+                title="Contact"
+                paragraph="NZSEC 联系方式，英文的主要是."
                 mb="44px"
               />
 
@@ -35,9 +35,9 @@ const AboutSectionThree = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="主营业务" />
-                    <List text="联系方式" />
-                    <List text="二维码，公众号的和其他的" />
+                    <List text="联系方式1" />
+                    <List text="联系方式2" />
+                    <List text="联系方式3" />
                   </div>
 {/* 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
@@ -56,4 +56,4 @@ const AboutSectionThree = () => {
   );
 };
 
-export default AboutSectionThree;
+export default Contact;

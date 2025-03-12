@@ -40,17 +40,24 @@ const Header = () => {
 
   return (
     <>
-      <header style = {{border:'red 0px solid'}}
-        className={`h-[120px] lg:h-[160px] header left-0 top-0 z-40 flex w-full items-center ${
+      <header
+        style={{ border: "red 0px solid" }}
+        className={`header left-0 top-0 z-40 flex h-[120px] w-full items-center lg:h-[160px] ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent"
         }`}
       >
-        <div className="pl-4 mx-auto w-12/12 lg:w-8/12" style = {{border:'#fff 0px solid'}}>
-        {/* <div className="container"> */}
-          <div className="relative flex items-center justify-between" >
-            <div className="max-w-full px-4 xl:mr-12"  style = {{border:'green 0px solid'}}>
+        <div
+          className="w-12/12 mx-auto pl-4 lg:w-8/12"
+          style={{ border: "#fff 0px solid" }}
+        >
+          {/* <div className="container"> */}
+          <div className="relative flex items-center justify-between">
+            <div
+              className="max-w-full px-4 xl:mr-12"
+              style={{ border: "green 0px solid" }}
+            >
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -62,33 +69,24 @@ const Header = () => {
                   alt="logo"
                   width={270}
                   height={140}
-                  className="w-[300px] h-[140px] dark:hidden"
+                  className="h-[140px] w-[300px] dark:hidden"
                 />
                 <Image
                   src="/images/logo/logo-landscape_dark.svg"
                   alt="logo"
                   width={270}
                   height={140}
-                  className="hidden w-[300px] h-[140px] w-full dark:block"
+                  className="hidden h-[140px] w-[300px] w-full dark:block"
                 />
-{/* 
-                <Image
-                  src="/images/logo/logo-landscape_new.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                /> */}
-
-
-
               </Link>
             </div>
 
-            
-            <div className="flex w-full items-center justify-between px-4" style = {{border:'red 0px solid'}}>
+            <div
+              className="flex w-full items-center justify-between px-4"
+              style={{ border: "red 0px solid" }}
+            >
               <div>
-                <button 
+                <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
@@ -122,8 +120,8 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
-                          <Link 
-                            href={menuItem.path} 
+                          <Link
+                            href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
@@ -156,7 +154,7 @@ const Header = () => {
                               }`}
                             >
                               {menuItem.submenu.map((submenuItem, index) => (
-                                <Link 
+                                <Link
                                   href={submenuItem.path}
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
@@ -172,15 +170,12 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0" >
+              <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <div>
                   <ThemeToggler />
                 </div>
               </div>
             </div>
-
-
-            
           </div>
         </div>
       </header>
