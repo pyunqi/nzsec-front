@@ -1,13 +1,11 @@
 "use client";
 
 
-import ModalVideo from "react-modal-video";
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 // 动态导入 ThreeScene 组件，禁用服务器端渲染
 const ThreeScene = dynamic(() => import('../ThreeScene'), {
   loading: () => <>Loading...</>,
-  suspense: true,
   ssr: false, // 禁用服务器端渲染
 });
 const Video = () => {
@@ -42,15 +40,6 @@ const Video = () => {
           </div>
         </div>
       </div>
-
-      <ModalVideo
-        channel="youtube"
-        autoplay={true}
-        start={true}
-        isOpen={isOpen}
-        videoId="L61p2uyiMSo"
-        onClose={() => setOpen(false)}
-      />
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
     </section>

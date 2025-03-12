@@ -5,25 +5,25 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24 mt-20 md:mt-24 lg:mt-35">
-        <div className="container">
-          <div className="mx-4 flex flex-wrap">
-            <div className="pl-9 md:pl-15 lg:pl-15 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12 border-0">
-              <div className="mb-12 max-w-[125px] md:max-w-[160px] lg:max-w-[180px] lg:mb-16 border-0">
+      <footer className="relative z-10 bg-white dark:bg-gray-dark md:pt-4 ">
+        <div className="container pl-4 mx-auto h-[240px] lg:w-8/12">
+          <div className="flex flex-wrap">
+            <div className="md:pl-15 lg:pl-4 md:pl-16 md:w-1/2 lg:w-4/12 xl:w-5/12 border-0">
+              <div className="w-[270px] lg:mb-16 border-0">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-landscape_3.svg"
+                    src="/images/logo/logo-landscape_light.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={100}
-                    height={30}
+                    width={270}
+                    height={200}
+                    className="w-270px] h-[140px] dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo-landscape_2.svg"
+                    src="/images/logo/logo-landscape_dark.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={100}
-                    height={30}
+                    width={270}
+                    height={200}
+                    className="w-[270px] h-[140px] dark:block"
                   />
                 </Link>
               </div>
@@ -45,15 +45,6 @@ const Footer = () => {
                       Any Child links
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Any Child links
-                    </Link>
-                  </li>
-                
                 </ul>
               </div>
             </div>
@@ -74,15 +65,6 @@ const Footer = () => {
                       Any Child links
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                     Any Child links
-                    </Link>
-                  </li>
-                
                 </ul>
               </div>
             </div>
@@ -103,19 +85,10 @@ const Footer = () => {
                         Any Other Links?
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                       Any Other Links?
-                    </Link>
-                  </li>
                 
                 </ul>
               </div>
             </div>
-
 
           </div>
 
