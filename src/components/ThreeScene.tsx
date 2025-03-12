@@ -13,9 +13,9 @@ type Particle = {
 };
 
 // 创建粒子数组
-const particles: Particle[] = Array.from({ length: 100 }, () => ({
+const particles: Particle[] = Array.from({ length: 36 }, () => ({
   factor: MathUtils.randInt(20, 80),
-  speed: MathUtils.randFloat(0.01, 0.45),
+  speed: MathUtils.randFloat(0.01, 0.65),
   xFactor: MathUtils.randFloatSpread(40),
   yFactor: MathUtils.randFloatSpread(10),
   zFactor: MathUtils.randFloatSpread(10)
