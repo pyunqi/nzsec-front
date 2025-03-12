@@ -13,12 +13,12 @@ const Features = () => {
         <div className = "mx-auto lg:w-8/12">
           
           <SectionTitle
-            title=">> New Zealand S.E.C. Centre "
-            paragraph="The New Zealand S.E.C Centre is an independent legal entity registered in New Zealand.We are focus on work in the fields of education, technology, and culture! "
+            title="New Zealand S.E.C. Centre "
+            paragraph="This Centre is an independent legal entity registered in New Zealand.We are focus on work in the fields of education, technology, and culture! "
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3 pt-8 pl-4 sm:pl-0 lg:pl-0" style = {{border:'yellow 0px dotted', margin:'0px 0 0px 0'}}>
+          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-2 pt-8 pl-4 sm:pl-0 lg:pl-0" style = {{border:'yellow 0px dotted', margin:'0px 0 0px 0'}}>
             {featuresData.map((feature, index) => (
               <SingleFeature key={index} feature={feature} />
             ))}
