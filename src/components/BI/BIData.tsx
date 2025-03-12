@@ -33,6 +33,8 @@ const biData: BI[] = [
     tags: ["Training"],
     bid: "/bi/bi-details"
   },
+];
+export default biData;
   // { 原来的数据样子
   //   id: 4,
   //   title: "Tips to quickly improve your coding speed.",
@@ -47,5 +49,3 @@ const biData: BI[] = [
   //   publishDate: "2025",
   //   bid: "/bi/bi-details"
   // },
-];
-export default biData;
