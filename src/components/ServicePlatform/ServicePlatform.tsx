@@ -39,7 +39,7 @@ const ServicePlatform = () => {
         <div className="mb-2 flex items-center space-x-4 border-0 border-gray-300 p-8 pl-2 pr-2 md:py-8 lg:py-8">
           <div className="relative h-[100px] w-[100px]">
             <Image
-              src="/images/ServicePlatform/zzh.jpeg"
+              src="/images/ServicePlatform/logo.svg"
               alt="member1-image"
               layout="fill"
               objectFit="contain"
@@ -47,22 +47,11 @@ const ServicePlatform = () => {
           </div>
           <div className="flex-1 text-normalgray">
             <span className="font-medium text-blue">
-              ZZU(郑州大学) New Zealand Education Exchange Center
+              培训平台介绍
             </span>
             <span className="text-gray block indent-6 leading-relaxed">
-              The ZZU-New Zealand Education Exchange Center (ZZU-NZEEC) was
-              established in 2021, making it the first overseas educational
-              institution founded by a Chinese &quot;Double First-Class&quot; university
-              in New Zealand. It is a key division of the New Zealand Education
-              and Culture Center. As the only official overseas representative
-              and independent institution of Zhengzhou University, ZZU-NZEEC is
-              dedicated to developing high-quality educational resources,
-              serving as a bridge for international exchange and collaboration
-              between New Zealand’s higher education institutions and Zhengzhou
-              University, and continuously expanding international education
-              exchange opportunities. The center aims to enhance Zhengzhou
-              University’s global partnerships and strengthen its international
-              competitiveness.
+            培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍
+            培训平台介绍培训平台介绍培训平台介绍培训平台介绍
             </span>
           </div>
         </div>
@@ -75,7 +64,7 @@ const ServicePlatform = () => {
         <div className="mb-2 flex items-center space-x-4 border-0 border-gray-300 p-8 pl-2 pr-2 md:py-8 lg:py-8">
           <div className="relative h-[100px] w-[100px]">
             <Image
-              src="/images/ServicePlatform/bailie.jpg"
+              src="/images/ServicePlatform/logo.svg"
               alt="member1-image"
               layout="fill"
               objectFit="contain"
@@ -83,19 +72,10 @@ const ServicePlatform = () => {
           </div>
           <div className="flex-1 text-normalgray">
             <span className="font-medium text-blue">
-              New Zealand Bailie Training Base Limited
+            培训平台介绍
             </span>
             <span className="text-gray block indent-6 leading-relaxed">
-              New Zealand Bailie Training Base was registered in New Zealand in
-              November 2019. It was established to promote the international
-              spirit of great love embodied by Rewi Alley and to carry forward
-              his educational philosophy of &quot;combining hands and mind, creating
-              and analyzing.&quot; The base aims to implement the Implementation Plan
-              for National Vocational Education Reform, advance the
-              internationalization of China’s vocational education, support
-              China’s industries in moving up the global value chain, and
-              further deepen cooperation between China and New Zealand in the
-              field of vocational education.
+            培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍
             </span>
           </div>
         </div>
@@ -108,7 +88,7 @@ const ServicePlatform = () => {
         <div className="mb-2 flex items-center space-x-4 border-0 border-gray-300 p-8 pl-2 pr-2 md:py-8 lg:py-8">
           <div className="relative h-[100px] w-[100px]">
             <Image
-              src="/images/ServicePlatform/OIP.jpeg"
+              src="/images/ServicePlatform/logo.svg"
               alt="member1-image"
               layout="fill"
               objectFit="contain"
@@ -116,23 +96,10 @@ const ServicePlatform = () => {
           </div>
           <div className="flex-1 text-normalgray">
             <span className="font-medium text-blue">
-              The University of Waikato China Education Centre
+            培训平台介绍
             </span>
             <span className="text-gray block indent-6 leading-relaxed">
-              In 1994, China began exploring the introduction of international
-              vocational qualification certificates. In 1998, the former
-              Ministry of Labor and Social Security issued the Notice on
-              Strengthening the Management of Introducing Foreign Vocational
-              Qualification Certificates (Lao She Bu Fa [1998] No. 18),
-              requiring qualification review and registration of foreign
-              certificates and issuing bodies from 1999 onwards. The Notice
-              mandated collaboration with domestic institutions, prohibiting
-              foreign bodies from independently conducting exams or issuing
-              certificates in China.In 2004, the Occupational Skill Testing
-              Authority released the Implementation Rules for the Registration
-              and Management of Foreign Vocational Qualification Certificates
-              (Trial), detailing procedures and requirements for introducing
-              these certificates.
+            培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍培训平台介绍
             </span>
           </div>
         </div>
